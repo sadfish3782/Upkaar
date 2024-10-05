@@ -197,7 +197,16 @@ p.a {
   margin: 0;
   outline: none;
 }
+.offcanvas-end {
+  padding-right: 0;
+  margin-right: 0;
+  width: 100%; /* Ensures it covers the entire mobile width properly */
+}
 
+.offcanvas-body {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
 /* masonry */
 .btn.is-checked {
     color: var(--bs-btn-hover-color);
