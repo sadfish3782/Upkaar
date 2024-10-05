@@ -233,15 +233,15 @@ p.a {
 
 /* width of container */
 @media (max-width: 768px) {
-  .display-1 {
-    font-size: 3rem; /* Adjust the size for smaller screens */
-    line-height: 1.2; /* Adjust the line height for better spacing */
+  .banner .display-1 {
+    font-size: 3rem; /* Smaller font size specifically for Upkaar Ayurveda */
+    line-height: 1.2; /* Adjust line height for spacing */
   }
 
-  .text-content {
-    padding-right: 1rem; /* Add padding to the right to ensure proper alignment */
+  .banner .text-content {
+    padding-right: 1rem; /* Ensures proper alignment within the banner */
   }
-    }
+}
 @media (min-width: 1200px) {
     .container, .container-lg, .container-md, .container-sm, .container-xl {
         max-width: 1460px;
