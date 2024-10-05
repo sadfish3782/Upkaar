@@ -207,6 +207,9 @@ p.a {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
+body, html {
+  overflow-x: hidden;
+}
 /* masonry */
 .btn.is-checked {
     color: var(--bs-btn-hover-color);
