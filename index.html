@@ -1,0 +1,675 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Upkaar Aayurveda</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+  <!--cdncss link-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="css/lightbox.min.css">
+
+  <!--style sheet-->
+  <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+<!-- SVG Icons -->
+<svg>
+       <symbol id="herbal" viewBox="0 0 24 24">
+    <path fill="#4ba1a7" d="M2 12c0 4.42 3.58 8 8 8h4c4.42 0 8-3.58 8-8H2zm18 2a6.002 6.002 0 0 1-5 5.91V18h-6v1.91A6.002 6.002 0 0 1 4 14h16zm-1-4V8h-2v2h-2V8h-2v2h-2V8h-2v2H7V8H5v2H4a2 2 0 0 0-2 2v1h20v-1a2 2 0 0 0-2-2h-1z"/>
+  </symbol>
+  <symbol id="supplement" viewBox="0 0 24 24">
+    <path fill="#4ba1a7" d="M16 8H8a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V10a2 2 0 0 0-2-2zm-1 12H9v-2h6v2zm0-4H9v-2h6v2zm0-4H9V8h6v2zm-3-6c-.55 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"/>
+  </symbol>
+  <symbol id="skincare" viewBox="0 0 24 24">
+    <path fill="#4ba1a7" d="M16 2h-8c-1.1 0-2 .9-2 2v1h-2v14h16V5h-2V2zm-4 16c-3.31 0-6-2.69-6-6h2c0 2.21 1.79 4 4 4s4-1.79 4-4h2c0 3.31-2.69 6-6 6zm0-10c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"/>
+  </symbol>
+</svg>
+<header id="top" class="position-sticky top-0 start-0" style="z-index:10;">
+  <nav class="navbar bg-white fixed-top">
+    <div class="container-fluid">
+      <div class="d-flex align-items-center g-4">
+        <a class="navbar-brand d-flex" href="index.html">
+          <img src="images/logo.png" class="img-fluid" id="logo">
+        </a>
+        <div class="ms-auto d-flex align-items-center">
+          <a href="https://www.instagram.com/upkaarayurvedaindia?igsh=cmIxNGIwbjRldzky" target="blank" class="me-3 social-icon">
+            <img src="images/instagram.png" alt="Instagram" width="24" height="24" class="icon-img">
+          </a>
+          <a href="https://wa.me/1234567890" target="blank" class="me-3 social-icon">
+            <img src="images/whatsapp.png" alt="WhatsApp" width="24" height="24" class="icon-img">
+          </a>
+          <a href="https://www.facebook.com" target="blank" class="social-icon">
+            <img src="images/facebook.png" alt="Facebook" width="24" height="24" class="icon-img">
+          </a>
+        </div>
+      </div>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon">
+          <svg class="text-primary menu" width="32" height="32">
+            <use xlink:href="#menu"></use>
+          </svg>
+        </span>
+      </button>
+      <div class="offcanvas offcanvas-end text-white bg-black" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <button type="button" class="btn-close btn-close-white ms-3" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav flex-grow-1 p-4">
+            <li class="nav-item">
+              <a class="nav-link active text-uppercase ls-4 text-white" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase ls-4 text-white" href="index.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase ls-4 text-white" href="#about">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase ls-4 text-white" href="#product">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase ls-4 text-white" href="#faq">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase ls-4 text-white" href="#news">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase ls-4 text-white" href="#footer">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<section>
+  <div class="container-fluid">
+    <div class="banner rounded-4 p-5"
+      style="background-image: url(images/banner.jpg); background-size: cover; background-repeat: no-repeat; background-position: center;">
+      <div class="text-content text-white py-5 my-5">
+        <p class="fs-4">
+          Start Healthy living today with
+        </p>
+        <h1 class="display-1">
+          Upkaar <br> Ayurveda
+        </h1>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CSS -->
+<style>
+  @media (max-width: 768px) {
+    .banner .display-1 {
+      font-size: 3rem; /* Adjust font size for the specific section */
+      line-height: 1.2;
+    }
+
+    .banner .text-content {
+      padding-right: 1rem;
+    }
+  }
+</style>
+  <section id="product" class="portfolio py-5">
+    <div class="container">
+      <div class="justify-content-center">
+
+        <div class="row justify-content-center">
+
+          <div class="col-lg-6" data-aos="fade-up">
+            <div class="section-header text-center">
+              <h4 class="fw-bold fs-2 txt-fx slide-up">
+            "At Upkaar Ayurveda, we believe in the healing power of nature, offering pure, natural products that nourish the body and uplift the spirit, guiding you on your journey to wellness."
+              </h4>
+            </div><!--section-header-->
+          </div>
+
+          <div id="filters" class="button-group d-flex flex-wrap gap-3 justify-content-center py-5" data-aos="fade-up">
+            <a href="#" class="btn btn-primary text-decoration-none text-uppercase is-checked"
+              data-filter=".all">All products</a>
+            <a href="#" class="btn btn-primary text-decoration-none text-uppercase" data-filter=".hair">Hair Products</a>
+            <a href="#" class="btn btn-primary text-decoration-none text-uppercase"
+              data-filter=".body">Body Improvement/healing</a>
+            <a href="#" class="btn btn-primary text-decoration-none text-uppercase" data-filter=".tea">Tea Collection</a>
+          </div>
+        </div>
+
+        <div class="grid p-0 clearfix row row-cols-2 row-cols-lg-3 row-cols-xl-4" data-aos="fade-up">
+          <div class="col mb-4 portfolio-item all">
+            <a href="images/ayurveda.jpg" data-lightbox="illustration-1" data-title="illustration-1"
+              title="Sample Caption goes here for Portfolio Item 1."><img src="images/ayurveda.jpg"
+                class="img-fluid rounded-4" alt="portfolio"></a>
+          </div>
+          <div class="col mb-4 portfolio-item all hair">
+            <a href="images/hairproduct1.png" data-lightbox="illustration-2" data-title="illustration-2"
+              title="Red Onion and Black seed Shampoo."><img src="images/hairproduct1.png"
+                class="img-fluid rounded-4" alt="portfolio"></a>
+          </div>
+          <div class="col mb-4 portfolio-item hair">
+            <a href="images/hairproduct2.png" data-lightbox="illustration-2" data-title="illustration-2"
+              title="Red Onion and Black seed Shampoo."><img src="images/hairproduct2.png"
+                class="img-fluid rounded-4" alt="portfolio"></a>
+          </div>
+          <div class="col mb-4 portfolio-item hair">
+            <a href="images/hairproduct3.png" data-lightbox="illustration-2" data-title="illustration-2"
+              title="Red Onion and Black seed Shampoo."><img src="images/hairproduct3.png"
+                class="img-fluid rounded-4" alt="portfolio"></a>
+          </div>
+            <div class="col mb-4 portfolio-item all hair">
+            <a href="images/hairproduct4.png" data-lightbox="illustration-2" data-title="illustration-2"
+              title="Red Onion and Black seed Shampoo."><img src="images/hairproduct4.png"
+                class="img-fluid rounded-4" alt="portfolio"></a>
+          </div>
+          <div class="col mb-4 portfolio-item hair">
+            <a href="images/hairproduct5.png" data-lightbox="illustration-2" data-title="illustration-2"
+              title="Red Onion and Black seed Shampoo."><img src="images/hairproduct5.png"
+                class="img-fluid rounded-4" alt="portfolio"></a>
+          </div>
+          <div class="col mb-4 portfolio-item hair">
+            <a href="images/hairproduct6.png" data-lightbox="illustration-2" data-title="illustration-2"
+              title="Red Onion and Black seed Shampoo."><img src="images/hairproduct6.png"
+                class="img-fluid rounded-4" alt="portfolio"></a>
+          </div>
+          <div class="col mb-4 portfolio-item all body">
+            <a href="images/body1.png" data-lightbox="illustration-2" data-title="illustration-2"
+              title="Red Onion and Black seed Shampoo."><img src="images/body1.png"
+                class="img-fluid rounded-4" alt="portfolio"></a>
+          </div>
+          <div class="col mb-4 portfolio-item body">
+            <a href="images/body2.png" data-lightbox="illustration-2" data-title="illustration-2"
+              title="Red Onion and Black seed Shampoo."><img src="images/body2.png"
+                class="img-fluid rounded-4" alt="portfolio"></a>
+          </div>
+              <div class="col mb-4 portfolio-item body">
+            <a href="images/body3.png" data-lightbox="illustration-2" data-title="illustration-2"
+              title="Red Onion and Black seed Shampoo."><img src="images/body3.png"
+                class="img-fluid rounded-4" alt="portfolio"></a>
+          </div>
+          <div class="col mb-4 portfolio-item all body">
+            <a href="images/body4.png" data-lightbox="illustration-2" data-title="illustration-2"
+              title="Red Onion and Black seed Shampoo."><img src="images/body4.png"
+                class="img-fluid rounded-4" alt="portfolio"></a>
+          </div>
+              <div class="col mb-4 portfolio-item body">
+            <a href="images/body6.png" data-lightbox="illustration-2" data-title="illustration-2"
+              title="Red Onion and Black seed Shampoo."><img src="images/body6.png"
+                class="img-fluid rounded-4" alt="portfolio"></a>
+          </div>
+              <div class="col mb-4 portfolio-item all tea">
+            <a href="images/tea1.png" data-lightbox="illustration-2" data-title="illustration-2"
+              title="Red Onion and Black seed Shampoo."><img src="images/tea1.png"
+                class="img-fluid rounded-4" alt="portfolio"></a>
+          </div>
+          <div class="col mb-4 portfolio-item tea">
+            <a href="images/tea2.png" data-lightbox="illustration-2" data-title="illustration-2"
+              title="Red Onion and Black seed Shampoo."><img src="images/tea2.png"
+                class="img-fluid rounded-4" alt="portfolio"></a>
+          </div>
+          <div class="col mb-4 portfolio-item all tea">
+            <a href="images/tea3.png" data-lightbox="illustration-2" data-title="illustration-2"
+              title="Red Onion and Black seed Shampoo."><img src="images/tea3.png"
+                class="img-fluid rounded-4" alt="portfolio"></a>
+          </div>
+          <div class="col mb-4 portfolio-item tea">
+            <a href="images/tea4.png" data-lightbox="illustration-2" data-title="illustration-2"
+              title="Red Onion and Black seed Shampoo."><img src="images/tea4.png"
+                class="img-fluid rounded-4" alt="portfolio"></a>
+          </div>
+        </div>
+      </div>
+  </section>
+  
+<!-- Why Use Our Products -->
+<section id="why-use" class="my-5">
+  <div class="container">
+    <div class="row">
+      <!-- Tea Line (Fit Tea, Rose Tea) -->
+      <div class="col-lg-4 mt-4">
+        <div class="h-100 bg-green p-4 rounded-4">
+          <h3>Tea Line</h3>
+          <div class="py-4">
+            <p class="text-dark-emphasis">
+              Our teas, including Fit Tea and Rose Tea, are crafted to support your wellness goals. Whether you're looking to enhance your metabolism, detox, or simply enjoy a refreshing cup full of natural antioxidants, our teas provide a wholesome experience.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hair Care Line (Onion Black Seed Hair Oil, Shampoo) -->
+      <div class="col-lg-4 mt-4">
+        <div class="h-100 bg-blue p-4 rounded-4">
+          <h3>Hair Care Line</h3>
+          <div class="py-4">
+            <p class="text-dark-emphasis">
+              Our Onion Black Seed Hair Oil and Shampoo are designed to nourish your scalp and promote healthy, strong hair. Rich in vitamins and essential oils, these products fight hair loss, reduce dandruff, and help restore your hair's natural shine.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Joint Pain Oil -->
+      <div class="col-lg-4 mt-4">
+        <div class="h-100 bg-orange p-4 rounded-4">
+          <h3>Joint Pain Relief</h3>
+          <div class="py-4">
+            <p class="text-dark-emphasis">
+              Our Joint Pain Oil combines the power of traditional herbs to provide quick relief from aches and pains. Regular application helps soothe inflamed joints and improve mobility, making it a perfect choice for those suffering from joint discomfort.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Supplements (Ashwagandha and Shilajit Tablets) -->
+      <div class="col-lg-4 mt-4">
+        <div class="h-100 bg-purple p-4 rounded-4">
+          <h3>Natural Supplements</h3>
+          <div class="py-4">
+            <p class="text-dark-emphasis">
+              Our Ashwagandha and Shilajit Tablets are packed with natural adaptogens that help reduce stress, improve energy levels, and enhance overall vitality. These supplements support mental clarity and endurance, making them a great addition to your daily wellness routine.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="my-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="h-100 bg-yellow p-4 rounded-4">
+          <h3>About Upkaar Ayurveda</h3>
+          <div class="py-4">
+            <p class="text-dark-emphasis">
+              Upkaar Ayurveda is dedicated to bringing you natural, holistic solutions for health and wellness, inspired by ancient Ayurvedic practices. Our products are designed with the finest natural ingredients to help you lead a healthier and more balanced life.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section id="why" class="py-5">
+  <div class="container">
+    <div class="rounded-4 p-5"
+      style="background-image: url(images/section-banner.jpg); background-size: cover; background-repeat: no-repeat; background-position: center;">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="h-100 bg-light text-dark p-4 rounded-4">
+            <h3>
+              Our Commitment to Ayurveda
+            </h3>
+            <div class="py-4">
+              <p class="text-dark-emphasis">
+                At Upkaar Ayurveda, we believe in the power of nature and ancient Ayurvedic wisdom. Each of our products is crafted with carefully sourced, natural ingredients to promote holistic health and wellness.
+              </p>
+              <h5>
+                Why Choose Us?
+              </h5>
+              <p class="text-dark-emphasis">
+                - 100% Natural Ingredients <br>
+                - Sustainable Sourcing <br>
+                - Ayurveda's Ancient Principles
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+ 
+<section class="p-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-3">
+        <div class="d-flex gap-4 align-items-start">
+          <div class="icon">
+            <svg class="text-primary herbal" width="50" height="50">
+              <use xlink:href="#herbal"></use>
+            </svg>
+          </div>
+          <div class="text-md-start">
+            <h5>Herbal Remedies</h5>
+            <p class="postf">
+              Discover the power of natural healing with our carefully curated herbal products.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="d-flex gap-4 align-items-start">
+          <div class="icon">
+            <svg class="text-primary supplement" width="50" height="50">
+              <use xlink:href="#supplement"></use>
+            </svg>
+          </div>
+          <div class="text-md-start">
+            <h5>Ayurvedic Supplements</h5>
+            <p class="postf">
+              Boost your wellness with our premium Ayurvedic supplements, crafted for your health.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="d-flex gap-4 align-items-start">
+          <div class="icon">
+            <svg class="text-primary skincare" width="50" height="50">
+              <use xlink:href="#skincare"></use>
+            </svg>
+          </div>
+          <div class="text-md-start">
+            <h5>Natural Skincare</h5>
+            <p class="postf">
+              Nourish your skin with our range of natural skincare products, made from pure ingredients.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+    <div class="container">
+      <div class="text-center pt-5">
+        <h2 class="display-3">
+          FAQs
+        </h2>
+      </div>
+      <div class="row mt-5">
+        <div class="col-lg-6">
+          <img src="images/illustration-6.jpg" class="img-fluid">
+        </div>
+        <div class="col-lg-6">
+          <div class="accordion accordion-flush" id="accordion-flush">
+            <div class="accordion-item border mb-3 rounded-3">
+              <h5 class="accordion-header">
+                <button class="accordion-button collapsed" style="font-weight:bold;" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                  aria-controls="collapseOne">
+                  Where can I purchase Upkaar Ayurveda products?
+                </button>
+              </h5>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordion-flush"" >
+                                <div class=" accordion-body">
+                <p>Upkaar Ayurveda products are available for purchase on popular Indian online shopping platforms, including Amazon and Flipkart. Additionally, there are plans to open stalls in Chandigarh for direct sales.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item border mb-3 rounded-3">
+            <h5 class="accordion-header">
+              <button class="accordion-button collapsed" style="font-weight:bold;" type="button"
+                data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                aria-controls="collapseTwo">
+                Does Upkaar Ayurveda have physical retail stores?
+              </button>
+            </h5>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordion-flush">
+              <div class="accordion-body">
+                <p>Please Contact us via Our Social media f you would like any of the product to be delivered.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item border mb-3 rounded-3">
+            <h5 class="accordion-header">
+              <button class="accordion-button collapsed" style="font-weight:bold;" type="button"
+                data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                aria-controls="collapseThree">
+                What types of products does Upkaar Ayurveda offer?
+              </button>
+            </h5>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordion-flush">
+              <div class="accordion-body">
+                <p>Upkaar Ayurveda offers a range of natural health products, including Fit Tea, Rose Tea, Ashwagandha and Shilajit Tablets, Joint Pain Oil, Onion Black Seed Hair Oil, and Onion Black Seed Shampoo.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item border mb-3 rounded-3">
+            <h5 class="accordion-header">
+              <button class="accordion-button collapsed" style="font-weight:bold;" type="button"
+                data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                aria-controls="collapseFour">
+               Are Upkaar Ayurveda products suitable for everyone?
+              </button>
+            </h5>
+            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordion-flush">
+              <div class="accordion-body">
+                <p>Upkaar Ayurveda products are crafted with natural ingredients aimed at promoting health and well-being. However, it's advisable to consult a healthcare professional before using any new supplements, especially for those with existing health conditions or allergies.
+</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item border mb-3 rounded-3">
+            <h5 class="accordion-header">
+              <button class="accordion-button collapsed" style="font-weight:bold;" type="button"
+                data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false"
+                aria-controls="collapseFive">
+                How does Upkaar Ayurveda ensure the quality of its products?
+              </button>
+            </h5>
+            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordion-flush">
+              <div class="accordion-body">
+                <p>Upkaar Ayurveda focuses on using high-quality natural ingredients in its products. While specific quality assurance processes are not detailed, customers can trust that the products are designed to meet health standards and provide effective results.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section id="news" class="py-5">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="display-3">
+          Lastest Post
+        </h2>
+        <p>
+          Upkaar Aayurveda Opening day!
+        </p>
+      </div>
+      <div class="row py-4">
+        <div class="col-lg-6 p-3">
+          <div class="post-item p-3 border rounded-5">
+            <div class="row g-md-5">
+              <div class="col-lg-5">
+                <img src="images/News1.jpg" class="img-fluid rounded-4">
+              </div>
+              <div class="col-lg-7">
+                <p class="text-uppercase text-muted mt-3">
+                  7/oct 
+                </p>
+                <h3>
+                  Welcome you to the opening day!
+                </h3>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 p-3">
+          <div class="post-item p-3 border rounded-5">
+            <div class="row g-md-5">
+              <div class="col-lg-5">
+                <img src="images/Rosetea.jpg" class="img-fluid rounded-4">
+              </div>
+              <div class="col-lg-7">
+                <p class="text-uppercase text-muted mt-3">
+                  Brand New Tea!
+                </p>
+                <h3>
+                  Enjoy the best flavour with our Rose Tea!
+                </h3>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 p-3">
+          <div class="post-item p-3 border rounded-5">
+            <div class="row g-md-5">
+              <div class="col-lg-5">
+                <img src="images/Mountainshampoo.jpg" class="img-fluid rounded-4">
+              </div>
+              <div class="col-lg-7">
+                <p class="text-uppercase text-muted mt-3">
+                  hearhy for your hair
+                </p>
+                <h3>
+                  Natural Shampoo
+                </h3>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 p-3">
+          <div class="post-item p-3 border rounded-5">
+            <div class="row g-md-5">
+              <div class="col-lg-5">
+                <img src="images/ashwagandha.jpg" class="img-fluid rounded-4">
+              </div>
+              <div class="col-lg-7">
+                <p class="text-uppercase text-muted mt-3">
+                  body improvement 
+                </p>
+                <h3>
+                  Learn how good Ashwagandha is for you body's development!
+                </h3>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!--
+  <section class="p-5 bg-yellow py-5">
+    <div class="container">
+      <div class="row justify-content-center my-5">
+        <div class="col-md-5">
+          <h6>
+            Quick Contact
+          </h6>
+          <h2 class="display-3">
+            Leave a Message
+          </h2>
+          <p>
+            Labore accusam in modo compungi, iacentem substantiales um se sed esse haec.
+          </p>
+        </div>
+        <div class="col-md-5">
+          <div class="mb-3">
+            <input type="name" class="form-control p-3 rounded-4" name="name" id="name" aria-describedby="nameHelpId"
+              placeholder="your name" />
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control p-3 rounded-4" name="email" id="email" aria-describedby="emailHelpId"
+              placeholder="your email" />
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control p-3 rounded-4" name="your message" placeholder="your message" id="message" rows="3"></textarea>
+          </div>
+          <div class="d-grid">
+            <button type="button" class="btn btn-dark btn-lg text-uppercase rounded-4">
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section \\
+-->
+<footer id="footer" class="bg-black text-white py-5">
+  <div class="container-fluid"> <!-- Changed to container-fluid -->
+    <div class="row g-md-5 my-5">
+      <div class="col-md-4">
+        <div class="info-box">
+          <img src="images/logo-2.png" class="img-fluid">
+          <p class="py-4">
+            Enjoy the beauty of natural products!
+          </p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="row">
+          <div class="col-6">
+            <ul class="list-unstyled">
+              <li>
+                <a class="text-decoration-none text-white" href="index.html">Home</a>
+              </li>
+              <li>
+                <a class="text-decoration-none text-white" href="#about">About</a>
+              </li>
+              <li>
+                <a class="text-decoration-none text-white" href="#product">Product</a>
+              </li>
+              <li>
+                <a class="text-decoration-none text-white" href="#news">Posts</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5 text-md-end">
+        <p>
+          Feel free to contact us on any of our social media platforms 
+        </p>
+        <h3>
+          <a href="mailto:upkaarayurveda@gmail.com" class="text-white text-decoration-none">upkaarayurveda@gmail.com</a>
+        </h3>
+        <h4 class="mt-2">Phone: <span class="text-white">+91 7901951218</span></h4>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <p>©2024 Upkaar Ayurveda</p>
+    </div>
+  </div>
+</footer>
+
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="js/jquery-1.11.0.min.js"></script> <!-- jquery file-->
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script> <!--cdn link-->
+  <script src="js/plugins.js"></script>
+  <script type="text/javascript" src="js/lightbox.min.js"></script>
+
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
