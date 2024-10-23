@@ -7,8 +7,6 @@ document.querySelectorAll('#offcanvasNavbar .nav-link').forEach(link => {
 });
 (function($) {
   "use strict";
-(function($) {
-  "use strict";
 
   $(document).ready(function() {
     
