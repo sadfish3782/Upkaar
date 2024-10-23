@@ -1,4 +1,12 @@
-
+document.querySelectorAll('#offcanvasNavbar .nav-link').forEach(link => {
+  link.addEventListener('click', function () {
+    var offcanvasElement = document.querySelector('#offcanvasNavbar');
+    var offcanvasInstance = bootstrap.Offcanvas.getInstance(offcanvasElement);
+    offcanvasInstance.hide();
+  });
+});
+(function($) {
+  "use strict";
 (function($) {
   "use strict";
 
